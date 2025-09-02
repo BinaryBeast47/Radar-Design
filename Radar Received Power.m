@@ -44,7 +44,8 @@ grid on;    % enables grid line on the current axis  for better readability
 xlabel('Range (km)');    
 ylabel('Received Power (dB)');
 
-%title() for the title
+%title() for the title of the figure window
 title('Radar Range Equation: Range vs Received Power');
+
 
 
