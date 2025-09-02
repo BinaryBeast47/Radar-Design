@@ -1,5 +1,7 @@
 % Radar Range Equation Plot
-clc; clear; close all;
+clc; %clear the command window
+clear; 
+close all;
 
 % User inputs
 Pt = input('Enter Transmit Power Pt (Watts): ');
@@ -29,3 +31,4 @@ grid on;
 xlabel('Range (km)');
 ylabel('Received Power (dB)');
 title('Radar Range Equation: Range vs Received Power');
+
