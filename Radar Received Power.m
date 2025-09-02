@@ -14,7 +14,7 @@ lambda = input('Enter Wavelength λ (m): ');
 % Define range vector (e.g., 1 km to 100 km)
 % creating a vector variable R
 %linspace is a matlab function that generate linearly spaced vector for the plot function.
-%linspace(start( start value ), end( End value), Number of points (how many points we need in between the start and end point))
+%linspace[start( start value ), end( End value), Number of points (how many points we need in between the start and end point)]
 R = linspace(1, 1000, 500);   % in meters
 
 % Radar range equation
@@ -46,6 +46,7 @@ ylabel('Received Power (dB)');
 
 %title() for the title of the figure window
 title('Radar Range Equation: Range vs Received Power');
+
 
 
 
