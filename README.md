@@ -408,7 +408,7 @@ This repository is continuously updated with new radar simulations, signal-proce
 
 This project is distributed under the **MIT License**.
 
-See [`LICENSE`](LICENSE) for details.
+See [MIT License](LICENSE) for details.
 
 ---
 
